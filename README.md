@@ -24,7 +24,7 @@ This project builds on insights from a team project completed in 2022
 for the CDS 301 (Introduction to Data Science) course.
 The original repository focused on exploratory visualization and interpretation.
 
-- Original team project repository: [[https://github.com/USERNAME/OLD_REPO_NAME](https://github.com/pcw419/netflix-global-trends)]
+- Original team project repository: [Netflix Global Trends (CDS 301)](https://github.com/pcw419/netflix-global-trends)
 
 
 
