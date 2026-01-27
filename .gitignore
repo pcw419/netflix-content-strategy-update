@@ -1,0 +1,12 @@
+# Ignore local experiment notebooks
+*_LOCAL.ipynb
+
+# Ignore data files
+data/
+
+# Ignore virtual environment
+venv/
+
+# macOS system files
+.DS_Store
+
