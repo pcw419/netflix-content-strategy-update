@@ -50,6 +50,12 @@ The original repository focused on exploratory visualization and interpretation.
 - TV shows exhibit a more stable and concentrated production pattern, reflecting higher investment costs and a preference for proven markets.
 - Overall, Netflix’s globalization strategy appears to have evolved from rapid expansion toward selective diversification and portfolio optimization rather than continuous geographic growth.
 
+### Q3: 
+- Netflix’s movie acquisition budgets have increased steadily over time, indicating a clear shift toward higher-budget content.
+- While median revenues also rise in the long run, they fluctuate more strongly than budgets, suggesting growing variability in financial outcomes.
+- Quarterly analysis reveals strategic inflection points that are obscured in annual aggregates, including periods of accelerated spending and heightened revenue uncertainty.
+- Several quarters show rising acquisition budgets without proportional revenue growth, implying a strategic focus on long-term catalog value, franchise potential, and brand positioning rather than immediate returns.
+- Overall, Netflix’s acquisition strategy reflects an increasing willingness to absorb short-term revenue volatility in exchange for higher-scale and strategically valuable content.
 
 ---
 
@@ -61,7 +67,14 @@ Because this dataset contains a fixed number of movie and TV titles for each rel
 ### Q2
 This analysis uses the number of distinct production countries as a proxy for globalization, which captures geographic breadth but not the volume or intensity of production in each country. As a result, all countries are weighted equally regardless of their actual contribution, and co-productions are not fully distinguished. The findings therefore reflect the breadth of Netflix’s global reach rather than the depth of production in specific regions.
 
+### Q3
+Budget and revenue data may be incomplete and reflect overall box office performance rather than Netflix-specific returns. Quarterly fluctuations can also be influenced by small sample sizes, so results indicate strategic tendencies rather than exact financial outcomes.
+
 ---
 
 ## References
 
+- OTT, Vedio Streaming PLarforms - Revenue and Users[from kaggle](https://www.kaggle.com/datasets/azminetoushikwasi/ott-video-streaming-platforms-revenue-and-users?select=LibrarySize.csv)
+
+
+- Netflix Movies and TV Show till 2025[from Kaggle](https://www.kaggle.com/datasets/bhargavchirumamilla/netflix-movies-and-tv-shows-till-2025?select=netflix_tv_shows_detailed_up_to_2025.csv)
