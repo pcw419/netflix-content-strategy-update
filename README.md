@@ -11,7 +11,7 @@ This project focuses on the following questions:
 
 1. Has Netflix shifted its content composition from movies toward TV shows over time?
 2. Has Netflix’s content portfolio become more global in terms of production countries?
-3. Have movie runtimes changed, reflecting shifts in content consumption patterns?
+3. How has Netflix’s movie acquisition strategy evolved in terms of budget and revenue scale over time?
 
 
 ---
