@@ -4,6 +4,14 @@ Updated analysis of Netflix content strategy using title-level data up to 2025.
 ---
 
 ## Introduction
+This project analyzes the evolution of Netflix’s content strategy using title-level data
+covering movies and TV shows available up to 2025.
+
+Building on an earlier exploratory team project completed in 2022, this updated analysis
+adopts a more structured, strategy-oriented perspective. Rather than focusing solely on
+descriptive trends, the project examines how Netflix’s content composition, globalization
+patterns, and acquisition scale have evolved over time, with an emphasis on strategic
+decision-making reflected in the timing and characteristics of content additions.
 
 
 ## Research Questions
@@ -17,6 +25,15 @@ This project focuses on the following questions:
 ---
 
 ## Data
+This project builds on insights from a team project completed in 2022
+for the CDS 301 (Introduction to Data Science) course.
+The original repository focused primarily on exploratory visualization
+and descriptive interpretation.
+
+The current project revisits the same domain with updated data and a
+more explicit analytical framework, emphasizing temporal trends,
+comparative composition, and strategic interpretation.
+
 
 ### Background
 
@@ -31,6 +48,21 @@ The original repository focused on exploratory visualization and interpretation.
 ---
 
 ## Methodology
+The analysis follows a structured workflow consisting of data cleaning,
+exploratory data analysis (EDA), and research question–driven investigation.
+
+- Data cleaning focused on handling missing values and resolving semantic
+  differences between movies and TV shows.
+- Exploratory analysis was used to examine distributional properties of key
+  numerical variables, revealing strong right-skewness and motivating the use
+  of median-based statistics and log transformations.
+- Time-based aggregation (monthly, yearly, and quarterly) was applied
+  selectively depending on the research question, with quarterly analysis
+  used to capture strategic inflection points that are obscured at coarser
+  temporal resolutions.
+
+All analyses were conducted using Python, with pandas and matplotlib as
+the primary analytical tools.
 
 
 ---
@@ -50,7 +82,7 @@ The original repository focused on exploratory visualization and interpretation.
 - TV shows exhibit a more stable and concentrated production pattern, reflecting higher investment costs and a preference for proven markets.
 - Overall, Netflix’s globalization strategy appears to have evolved from rapid expansion toward selective diversification and portfolio optimization rather than continuous geographic growth.
 
-### Q3: 
+### Q3: Movie Acquisition Scale (Budget and Revenue)
 - Netflix’s movie acquisition budgets have increased steadily over time, indicating a clear shift toward higher-budget content.
 - While median revenues also rise in the long run, they fluctuate more strongly than budgets, suggesting growing variability in financial outcomes.
 - Quarterly analysis reveals strategic inflection points that are obscured in annual aggregates, including periods of accelerated spending and heightened revenue uncertainty.
@@ -72,9 +104,20 @@ Budget and revenue data may be incomplete and reflect overall box office perform
 
 ---
 
+## Reproducibility
+
+This project was developed using a Python virtual environment.
+A `requirements.txt` file is provided to ensure reproducibility
+of the analysis environment.
+
+All data files are accessed using relative paths to maintain
+cross-platform compatibility.
+
+---
+
 ## References
 
-- OTT, Vedio Streaming PLarforms - Revenue and Users[from kaggle](https://www.kaggle.com/datasets/azminetoushikwasi/ott-video-streaming-platforms-revenue-and-users?select=LibrarySize.csv)
+- OTT, Video Streaming PLarforms - Revenue and Users[from kaggle](https://www.kaggle.com/datasets/azminetoushikwasi/ott-video-streaming-platforms-revenue-and-users?select=LibrarySize.csv)
 
 
 - Netflix Movies and TV Show till 2025[from Kaggle](https://www.kaggle.com/datasets/bhargavchirumamilla/netflix-movies-and-tv-shows-till-2025?select=netflix_tv_shows_detailed_up_to_2025.csv)
